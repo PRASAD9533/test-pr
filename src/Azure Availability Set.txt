@@ -1,0 +1,20 @@
+Q:What is an Azure Availability Set?
+Answer: An Azure Availability Set is a logical grouping of virtual machines (VMs) within an Azure region. VMs in an Availability Set are deployed across multiple fault domains and update domains, which ensures high availability and resiliency for your application.
+
+Q:How does an Azure Availability Set ensure high availability?
+Answer: An Azure Availability Set ensures high availability by distributing VMs across multiple fault domains and update domains. This protects against hardware failures and planned maintenance events by ensuring that VMs are not all affected at the same time.
+
+Q:What is a fault domain in an Azure Availability Set?
+Answer: A fault domain is a logical grouping of VMs within an Azure datacenter. Fault domains ensure that VMs are deployed across multiple physical servers, racks, and network switches to protect against hardware failures.
+
+Q:What is an update domain in an Azure Availability Set?
+Answer: An update domain is another logical grouping of VMs within an Azure datacenter. Update domains ensure that not all VMs are updated at the same time, which helps protect against downtime during planned maintenance events.
+
+Q:Can you deploy virtual machines in different regions within an Azure Availability Set?
+Answer: No, you cannot deploy virtual machines in different regions within an Azure Availability Set. An Availability Set is specific to a single region.
+
+Q:Can you deploy virtual machines in different Availability Zones within an Azure Availability Set?
+Answer: No, you cannot deploy virtual machines in different Availability Zones within an Azure Availability Set. Availability Sets are designed to ensure high availability within a single Azure datacenter, while Availability Zones are designed to ensure high availability across multiple datacenters within a region.
+
+Q:What is the benefit of using a load balancer with an Azure Availability Set?
+Answer: A load balancer distributes traffic across multiple virtual machines in an Availability Set, which ensures that your application remains available even if one VM experiences an outage. This provides additional resiliency and availability for your application

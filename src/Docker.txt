@@ -1,0 +1,47 @@
+Q: What is Docker?
+A: Docker is a containerization platform that allows developers to package, deploy, and run applications in a portable and consistent environment.It is a tool that simplifies the process of creating, deploying, and managing applications by packaging the application code and its dependencies into a container.
+
+*Docker containers are lightweight, standalone, and executable packages that contain everything needed to run an application, including code, libraries, and dependencies.
+
+*They can be easily moved between different environments, such as from a developer's laptop to a production server, without any compatibility issues.
+
+*Docker provides a standardized way of creating, deploying, and managing applications, making it easier to build and deploy complex applications in a scalable and efficient way.
+
+Q:What is Docker file?
+A:A Dockerfile is a text document that contains all the commands a user could call on the command line to assemble an image.
+
+Q:What is Docker image?
+A:Docker Image is an executable package of software that includes everything needed to run an application.
+   
+Q: What is a container?
+A: A container is a lightweight, standalone, and executable package that contains everything needed to run an application, including code, libraries, and dependencies.
+
+Q: What is the difference between a Docker image and a Docker container?
+A: A Docker image is a static snapshot of an application and its dependencies, while a Docker container is a running instance of an image.
+
+Q: How do you create a Docker image?
+A: To create a Docker image, you need to define a Dockerfile, which contains a set of instructions for building the image, such as copying files, installing dependencies, and configuring the environment. Once the Dockerfile is defined, you can use the Docker build command to build the image.
+
+Q: What is a Docker registry?
+A: A Docker registry is a central repository that stores Docker images, allowing users to share and distribute their images with others.
+
+Q: What is Docker Compose?
+A: Docker Compose is a tool that allows you to define and run multi-container Docker applications. It uses a YAML file to define the services and their configurations, and then uses the Docker Compose CLI to start and manage the containers.
+
+Q: How do you manage Docker containers?
+A: You can manage Docker containers using the Docker CLI, which provides a set of commands for starting, stopping, inspecting, and deleting containers. You can also use tools like Docker Compose and Kubernetes to manage multiple containers and orchestrate them at scale.
+
+Q: What is Docker Swarm?
+A: Docker Swarm is a container orchestration tool that allows you to manage a cluster of Docker nodes and deploy containers at scale. It provides features like automatic load balancing, rolling updates, and service discovery.
+
+Q: How do you secure Docker containers?
+A: To secure Docker containers, you need to follow best practices like using official images, minimizing the attack surface, and configuring secure networking. You can also use features like Docker Content Trust to sign and verify the integrity of images, and Docker Secrets to manage sensitive data.
+
+Q: What are the advantages of using Docker?
+A: Some advantages of using Docker include:
+
+Portability: Docker images can be run on any platform that supports Docker.
+Consistency: Docker ensures that the application runs consistently across different environments.
+Scalability: Docker allows you to scale the application horizontally by running multiple containers.
+Isolation  : Docker containers provide a lightweight and isolated runtime environment for applications.
+Efficiency : Docker reduces the overhead of running applications by sharing the host kernel and resources

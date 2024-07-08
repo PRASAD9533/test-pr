@@ -1,0 +1,36 @@
+Q:What are Azure Availability Zones?
+Answer: Azure Availability Zones are physically separate datacenters within an Azure region, each with their own power, cooling, and networking infrastructure. These zones are designed to be independent and isolated from failures in other zones, which ensures high availability and resiliency for your applications.
+
+Q:How many Availability Zones are available in an Azure region?
+Answer: The number of Availability Zones in an Azure region varies. Some regions have two or three Availability Zones, while others have up to six.
+
+Q:How can you deploy resources across Availability Zones?
+Answer: You can deploy resources across Availability Zones using Azure Resource Manager templates, Azure CLI, Azure PowerShell, or the Azure portal.
+
+Q:What is the benefit of deploying resources across Availability Zones?
+Answer: Deploying resources across Availability Zones provides high availability and resiliency for your applications. If one zone experiences an outage, your resources can failover to another zone without impacting the availability of your application.
+
+Q:Can you explain how Azure Load Balancer works with Availability Zones?
+Answer: Azure Load Balancer can distribute traffic across multiple Availability Zones, which ensures that your application remains available even if one zone experiences an outage. The Load Balancer uses health probes to monitor the health of the resources in each zone and directs traffic to the healthy resources.
+
+Q:What is the difference between an Availability Set and an Availability Zone?
+Answer: An Availability Set is a logical grouping of Virtual Machines (VMs) within an Azure region, while an Availability Zone is a physical datacenter within an Azure region. Availability Sets are designed to ensure that VMs are distributed across multiple fault domains and update domains, while Availability Zones are designed to ensure high availability and resiliency for your applications.
+
+Q:Can you explain how Azure ExpressRoute works with Availability Zones?
+Answer: Azure ExpressRoute provides a dedicated, private connection between your on-premises infrastructure and Azure. When you deploy ExpressRoute in an Availability Zone, the connection is redundant across multiple zones, which ensures high availability and resiliency for your connectivity.
+
+Q:Explain Azure Availability Zone & its components?
+
+Physical Datacenters: Each Azure region has one or more physical datacenters that host Azure services. Within each region, there are three or more Availability Zones, which are physically separate datacenters.
+
+Network Infrastructure: Each Availability Zone has its own power, cooling, and networking infrastructure. The network infrastructure includes redundant network paths, switches, routers, and firewalls.
+
+Virtual Machines: You can deploy Virtual Machines (VMs) across multiple Availability Zones to ensure high availability and resiliency for your applications. When you deploy VMs across Availability Zones, you can use Load Balancers to distribute traffic across the zones.
+
+Load Balancers: Azure Load Balancers can distribute traffic across multiple Availability Zones to ensure that your application remains available even if one zone experiences an outage. The Load Balancer uses health probes to monitor the health of the resources in each zone and directs traffic to the healthy resources.
+
+Virtual Networks: You can deploy Virtual Networks (VNets) across multiple Availability Zones to provide connectivity for your resources. When you deploy a VNet across Availability Zones, you can ensure that the network infrastructure is redundant and resilient.
+
+ExpressRoute: Azure ExpressRoute provides a dedicated, private connection between your on-premises infrastructure and Azure. When you deploy ExpressRoute in an Availability Zone, the connection is redundant across multiple zones, which ensures high availability and resiliency for your connectivity.
+
+Storage Accounts: You can use Azure Storage to store your data across multiple Availability Zones to ensure high availability and durability. When you deploy storage accounts across Availability Zones, the data is replicated across multiple zones

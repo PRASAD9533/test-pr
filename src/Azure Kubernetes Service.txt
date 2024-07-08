@@ -1,0 +1,38 @@
+Q: What is AKS?
+A: AKS stands for Azure Kubernetes Service, a fully-managed container orchestration service that simplifies the deployment and management of containerized applications on Kubernetes.
+
+Q: How does AKS differ from vanilla Kubernetes?
+A: AKS is a managed Kubernetes service, which means that Azure handles the management of the Kubernetes control plane and node infrastructure, including the deployment, scaling, and updating of clusters. Vanilla Kubernetes requires more manual configuration and management.
+
+Q: How do you create an AKS cluster?
+A: You can create an AKS cluster using the Azure Portal, Azure CLI, or Azure PowerShell. The process involves specifying the cluster name, node size and count, network configuration, and other settings.
+
+Q: What are the benefits of using AKS?
+A: Some benefits of using AKS include:
+
+Simplified management: AKS takes care of the Kubernetes control plane and node infrastructure, making it easier to deploy and manage clusters.
+Scalability: AKS can scale up or down automatically based on demand, providing a scalable infrastructure for applications.
+Security: AKS provides built-in security features, such as network isolation, role-based access control, and Azure Active Directory integration.
+Cost savings: AKS can help reduce infrastructure costs by optimizing resource usage and providing efficient scaling capabilities.
+Q: How does AKS integrate with other Azure services?
+A: AKS integrates with other Azure services, such as Azure Container Registry, Azure Monitor, and Azure DevOps, to provide a complete solution for building, deploying, and managing containerized applications.
+
+Q: What are some best practices for deploying applications on AKS?
+A: Some best practices for deploying applications on AKS include:
+
+Using Kubernetes best practices, such as defining resources limits and requests, and using liveness and readiness probes.
+Using managed services for storage and database requirements.
+Using container images from trusted sources.
+Using Azure DevOps or other CI/CD tools to automate deployment and updates.
+Monitoring the application and infrastructure using Azure Monitor.
+Q: What is a Kubernetes pod?
+A: A Kubernetes pod is the smallest deployable unit in Kubernetes, consisting of one or more containers that share the same network namespace and file system. Pods are used to encapsulate and manage a group of related containers.
+
+Q: How does AKS support high availability?
+A: AKS supports high availability through features like node pools, availability zones, and node auto-repair. Node pools provide the ability to spread workloads across multiple nodes, while availability zones provide a way to distribute nodes across multiple physical locations for increased redundancy. Node auto-repair automatically replaces nodes that fail or become unhealthy.
+
+Q: How do you monitor an AKS cluster?
+A: You can monitor an AKS cluster using Azure Monitor, which provides a centralized dashboard for monitoring Kubernetes clusters, nodes, and applications. Azure Monitor also integrates with other Azure services, such as Log Analytics and Application Insights, for deeper insights into application performance and logs.
+
+Q: How does AKS handle upgrades and updates?
+A: AKS handles upgrades and updates automatically, using rolling upgrades to minimize downtime and ensure that the cluster remains available during the upgrade process. AKS also supports automatic patching of the Kubernetes control plane to ensure that security patches and bug fixes are applied in a timely manner.

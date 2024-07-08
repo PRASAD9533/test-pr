@@ -1,0 +1,29 @@
+Azure DNS is a cloud-based domain name system (DNS) service provided by Microsoft Azure. DNS is a fundamental component of the internet infrastructure that translates domain names (e.g., example.com) into IP addresses (e.g., 192.0.2.1) that computers can understand.
+
+Azure DNS enables you to host your domain names in Azure and manage the DNS records for those domains. It offers features such as domain registration, zone management, and resolution services. With Azure DNS, you can easily configure DNS settings for your Azure resources, virtual networks, or custom domain names.
+
+Key features of Azure DNS include:
+
+Domain Hosting: You can register new domain names or transfer existing ones to Azure DNS. It supports various top-level domains (TLDs) like .com, .net, .org, and country-code TLDs.
+
+Zone Management: Azure DNS allows you to create DNS zones, which are containers for hosting DNS records. You can add, modify, or delete records within these zones to manage the DNS configuration for your domains.
+
+Zone Transfers: You can configure zone transfers to replicate DNS records across multiple Azure DNS name servers, providing redundancy and ensuring high availability.
+
+Private DNS Zones: Azure DNS also supports private DNS zones, which are used for name resolution within virtual networks. It allows you to define custom domain names for your Azure resources without exposing them to the public internet.
+
+Integration with Azure Services: Azure DNS seamlessly integrates with other Azure services like Azure App Service, Azure Virtual Machines, Azure Traffic Manager, and Azure CDN, allowing you to easily associate domain names with your cloud resources.
+
+By using Azure DNS, you can efficiently manage and resolve DNS queries for your applications, websites, and services hosted in Azure, improving their availability and performance.
+
+In Azure DNS, you can create the following types of DNS zones:
+
+Public DNS Zones: Public DNS zones are used to host and manage the DNS records for public domains. These zones are publicly accessible and can be resolved by clients on the internet. You can create, manage, and delete DNS records within a public DNS zone.
+
+Private DNS Zones: Private DNS zones are used to host and manage the DNS records for private domains within an Azure Virtual Network (VNet). These zones are not accessible from the internet and can only be resolved by resources within the same VNet or connected VNets using virtual network peering or VPN gateways. Private DNS zones provide name resolution for resources within a private network environment.
+
+Reverse DNS Zones: Reverse DNS zones are used to resolve IP addresses to domain names (reverse lookup) instead of the usual domain name to IP address resolution. Reverse DNS zones are commonly used for email servers and other applications that rely on reverse lookups to validate the sender's domain.
+
+It's important to note that Azure DNS also supports zone delegation, which allows you to delegate a subdomain to another DNS provider for managing its DNS records. This is useful if you have specific DNS requirements or if you want to use a different DNS service for a particular subdomain.
+
+These are the main types of DNS zones available in Azure. Each type serves a different purpose and provides specific functionalities based on your requirements.

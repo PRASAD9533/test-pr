@@ -1,0 +1,20 @@
+What is an Azure region?
+Answer: An Azure region is a geographic location where Microsoft has datacenters that host Azure services. Each region is independent and contains one or more datacenters.
+
+What is the purpose of choosing a specific Azure region for your resources?
+Answer: Choosing a specific Azure region can impact the performance, availability, and compliance of your resources. The closer your resources are to your users, the faster the response time will be. In addition, choosing a region that complies with specific data sovereignty requirements can help you meet regulatory and compliance requirements.
+
+How many Azure regions are there currently, and where are they located?
+Answer: As of September 2021, there are 63 Azure regions worldwide. They are located in North America, South America, Europe, Asia, Australia, and Africa.
+
+Can you explain what is meant by Azure region pairs?
+Answer: Azure region pairs are two regions within the same geographic area that are designed for high availability and disaster recovery. In the event of a major disaster, one region can act as a failover for the other region.
+
+How can you determine which Azure region to use for your resources?
+Answer: Factors to consider when choosing an Azure region include the location of your users, compliance and regulatory requirements, and the availability of specific Azure services in a region. You can also use Azure Advisor to get recommendations on which region to use for your resources.
+
+What are some of the benefits of using Azure regions for your resources?
+Answer: Using Azure regions can help you achieve high availability, scalability, and resiliency for your resources. Azure regions are designed to be isolated from each other, so if one region experiences an outage, your resources can failover to another region. In addition, deploying your resources across multiple regions can help you reduce latency and improve performance for your users.
+
+Can you explain what is meant by the term "region affinity" in Azure?
+Answer: Region affinity is a feature in Azure that allows you to deploy your resources to a specific Azure region based on proximity to a specific set of users or resources. This can help you reduce latency and improve performance for those users or resources.

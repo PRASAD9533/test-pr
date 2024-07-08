@@ -1,0 +1,23 @@
+Q:What is an Azure Web Application?
+Answer: An Azure Web Application is a cloud-based platform that allows developers to build and deploy web applications in a fully managed environment. It provides a scalable and secure platform for hosting web applications, with features like automatic scaling, load balancing, and high availability.
+
+Q:How do you deploy an Azure Web Application?
+Answer: There are several ways to deploy an Azure Web Application, including using Visual Studio, Azure CLI, Azure Portal, or Git. You can also use tools like Jenkins, TeamCity, or Octopus Deploy to automate the deployment process.
+
+Q:What is the difference between Azure Web Apps and Azure Virtual Machines?
+Answer: Azure Web Apps are a platform-as-a-service (PaaS) offering that provides a fully managed environment for hosting web applications, while Azure Virtual Machines are infrastructure-as-a-service (IaaS) offering that allows you to create and manage virtual machines in the cloud. With Azure Web Apps, you don't have to worry about managing the underlying infrastructure, whereas with Azure Virtual Machines, you have full control over the virtual machine configuration and management.
+
+Q:How do you scale an Azure Web Application?
+Answer: Azure Web Applications can be scaled horizontally or vertically. Horizontal scaling involves adding more instances of the application to handle increased traffic, while vertical scaling involves increasing the resources (CPU, memory) allocated to the existing instances. You can scale an Azure Web Application manually or automatically based on predefined rules.
+
+Q:How do you monitor an Azure Web Application?
+Answer: Azure Web Applications can be monitored using Azure Monitor, which provides a centralized platform for monitoring the performance and health of the application. You can monitor metrics like CPU usage, memory usage, network traffic, and HTTP requests. Azure Monitor also supports alerts and notifications, so you can be notified when certain conditions are met.
+
+Q:How do you secure an Azure Web Application?
+Answer: Azure Web Applications can be secured using several methods, including SSL/TLS encryption, Azure Active Directory authentication, OAuth, and role-based access control. You can also use Azure Security Center to monitor and manage security across all your Azure resources, including web applications.
+
+Q:How do you backup and restore an Azure Web Application?
+Answer: Azure Web Applications can be backed up and restored using Azure Backup, which provides a centralized platform for managing backups across all your Azure resources. You can schedule backups, configure retention policies, and restore backups to a new or existing web application.
+
+Q:How do you configure custom domains for an Azure Web Application?
+Answer: To configure a custom domain for an Azure Web Application, you need to add a DNS record for the domain pointing to the application's public IP address. You can also configure SSL/TLS encryption for the custom domain using a certificate from a trusted certificate authority or by using Azure's managed certificate service.

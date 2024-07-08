@@ -1,0 +1,30 @@
+Azure spring cloud
+Azure spring gateway
+Application gateway
+Helm charts
+Kubernetes to helm conversion
+Bash scripting
+Trivy
+Selenium
+Argocd
+Prometheus grafana
+Multiple testing and scanning stages of ci pipelines
+
+Azure Availability zones
+Azure Regions
+Azure Region Pairs
+Azure Functions
+Azure front Door
+Azure Webapp
+Azure Eventhub
+Azure API Management
+Azure Service Bus
+Azure SQL
+Azure CosmosDB
+Azure KeyVault
+Azure Storage account
+Azure Virtual Machine
+Azure container Registry
+Azure kubernetes service
+Azure CDN
+Azure Synapse Analytics

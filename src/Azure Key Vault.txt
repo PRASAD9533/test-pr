@@ -1,0 +1,34 @@
+Q: What is Azure Key Vault?
+A: Azure Key Vault is a cloud-based service that allows you to store and manage cryptographic keys, certificates, and secrets used to encrypt data, authenticate services, and secure applications.
+
+Q: What types of secrets can be stored in Azure Key Vault?
+A: Azure Key Vault supports the storage of several types of secrets, including passwords, connection strings, API keys, and certificates.
+
+Q: How can you access secrets stored in Azure Key Vault?
+A: Secrets stored in Azure Key Vault can be accessed programmatically using Azure SDKs or REST APIs, or through the Azure portal or PowerShell.
+
+Q: How does Azure Key Vault help secure your applications?
+A: Azure Key Vault helps secure your applications by providing a central location to store and manage cryptographic keys and secrets used to encrypt data and authenticate services. By storing these sensitive pieces of information in a secure and centrally managed location, you can reduce the risk of security breaches.
+
+Q: What are the benefits of using Azure Key Vault?
+A: Some benefits of using Azure Key Vault include:
+
+Centralized key and secret management
+Secure storage of sensitive information
+Integration with Azure services and applications
+Role-based access control for secrets
+Audit logging and monitoring capabilities
+Q: How can you create and manage keys in Azure Key Vault?
+A: You can create and manage keys in Azure Key Vault using the Azure portal, Azure CLI, PowerShell, or Azure SDKs. These tools allow you to create, rotate, and delete keys as well as manage access policies for key vaults.
+
+Q: How does Azure Key Vault integrate with Azure services?
+A: Azure Key Vault integrates with several Azure services, including Azure Virtual Machines, Azure Functions, Azure App Service, and Azure Kubernetes Service. These integrations allow you to securely store and manage cryptographic keys and secrets used by your Azure applications.
+
+Q: What is the process for enabling soft delete in Azure Key Vault?
+A: Soft delete can be enabled for Azure Key Vault by navigating to the Key Vault in the Azure portal, selecting "Properties," and then selecting "Soft delete." You can then choose to enable or disable soft delete and configure the retention period for deleted keys and secrets.
+
+Q: What is Azure Managed HSM?
+A: Azure Managed HSM is a cloud-based service that provides Hardware Security Module (HSM) services to safeguard cryptographic keys and digital certificates. It is designed to meet the highest security standards required for applications such as financial transactions and identity verification.
+
+Q: How does Azure Managed HSM differ from Azure Key Vault?
+A: Azure Managed HSM provides a dedicated hardware device to store and manage cryptographic keys, while Azure Key Vault uses a software-based approach. Azure Managed HSM is designed for applications that require the highest level of security, while Azure Key Vault is suitable for most applications that require secure key and secret management.
